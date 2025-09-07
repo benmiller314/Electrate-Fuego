@@ -9,7 +9,7 @@ Before we get going, I want to give a shout-out to my research buddy Shauna Chun
 Go to [Open Fuego](https://open-fuego.github.io/Open-Fuego-Coding-Tools/) to find more code-based tools and projects.<p>&nbsp;</p>
     
     
-##Get started!
+## Get started!
 
 
 1. Scroll to the top of this repository and click the green "**Code**" button. Select "**Download ZIP**" to download project files to your local computer. These are all the project files you'll need to get started working with code.
