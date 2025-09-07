@@ -18,17 +18,17 @@ Go to [Open Fuego](https://open-fuego.github.io/Open-Fuego-Coding-Tools/) to fin
 
 3. Download and/or open a code editor. We recommend [Phoenix Code](https://phcode.dev) which runs on a browser or [download](https://phcode.io/#/home) a desktop version.
 
-4. Use the code editor to open your project folder. Open index.html document. Read through the code comments embedded in the index.html document. Here, you'll find all the information you need to work with code! 
+4. Use the code editor to open your project folder. Open [index.html](index.html) document. Read through the code comments embedded in the index.html document. Here, you'll find all the information you need to work with web code! 
 
 5. Once you have modified and added content to your project, you will want to publish your webtext to the internet. GitHub provides a good publishing solution. If you do not already have one, create a GitHub account. [Go to GitHub](https://github.com/)
 
 6. Create a new repository to house your project files. Click  "**uploading an existing file**" and upload your project files to your repository and "**Commit changes**". You'll need ALL of your assets to make your webtext function properly. 
 
-7. Now go to your repository "settings." Scroll down to **"GitHub Pages"** in the left-hand menu. Change the source setting from **"none"** to **"main" "/root"** and then Click "Save"
+7. Now go to your repository "settings." Scroll down to **"GitHub Pages"** in the left-hand menu. Change the source setting from **"none"** to **"main" "/root"** and then Click "Save."
 
 8. GitHub will now provide you with a published URL. (This process may take several minutes.)
 
-9. Test the URL in a browser. Magic, no? Actually, it's computer science.  
+9. Test the URL in a browser. Magic, no? Actually, it's computing.  
 
 
 Check out our other cool coding tools at [Open Fuego](https://open-fuego.github.io/Open-Fuego-Coding-Tools/).<p>&nbsp;</p><p>&nbsp;</p>
