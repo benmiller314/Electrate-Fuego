@@ -2,14 +2,14 @@
 
 Hello, maker! Welcome to the Electrate Fuego web design tutorial. I'm glad we crossed paths – for this might be an important intersection on your way to becoming. Through this exercise, you'll learn a little bit about code literacy, computer science, and something called "electracy." Just follow the code comments in the HTML file, and you'll make a really cool web document that will help you process how different discourse communities in your life have contributed to your arrival in this space, virtual and actual, and how they might also contribute to where you're going. By sharing this webtext, we'll meet other people at this intersection, each on their own path to becoming.
 
-In this doc, you'll work through Gregory Ulmer's discourses of career, family, entertainment, community, and schooling (Internet Invention From Literacy to Electracy , 2002.) In Ulmer's text, he elides community and schooling into one category, but we'll separate them here. Ulmer's theory of electracy helps make sense of how we find/construct meaning and connect with others rhetorically in a media rich ecology. Ulmer uses analogy to define electracy, explaining that "electracy is to digital media what literacy is to print." 
+In this doc, you'll work through Gregory Ulmer's discourses of career, family, entertainment, community, and schooling (_Internet Invention From Literacy to Electracy_, 2002.) In Ulmer's text, he elides community and schooling into one category, but we'll separate them here. Ulmer's theory of electracy helps make sense of how we find/construct meaning and connect with others rhetorically in a media rich ecology. Ulmer uses analogy to define electracy, explaining that "electracy is to digital media what literacy is to print." 
 
-Before we get going, I want to give a shout-out to my research buddy Shauna Chung, who helped me develop the Ulmerian framework we'll follow in this webtext.<p>&nbsp;</p> 
+Before we get going, I ([Stephen Quigley](https://github.com/sjquigley)) want to give a shout-out to my research buddy Shauna Chung, who helped me develop the Ulmerian framework we'll follow in this webtext.<p>&nbsp;</p> 
 
 Go to [Open Fuego](https://open-fuego.github.io/Open-Fuego-Coding-Tools/) to find more code-based tools and projects.<p>&nbsp;</p>
     
     
-##Get started!
+## Get started!
 
 
 1. Scroll to the top of this repository and click the green "**Code**" button. Select "**Download ZIP**" to download project files to your local computer. These are all the project files you'll need to get started working with code.
