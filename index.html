@@ -55,12 +55,13 @@ To replace this image, simply find and delete the hero.jpg file in the project f
 </div>
 
 <!--Replace the image in this picture frame. Match code with file name/type. Control image width using inline styling. Adjust image size to 1200-600px depending on its need to scale across a screen. Remove or adjust the frame using the frame class on style.css.-->
-<div>
-<img src="parallax.jpg" class="frame" alt="my feet in water...describe the image HERE for accessibility purposes" width="50%">
-    <div class="caption">
+<figure>
+    <img src="parallax.jpg" class="frame" alt="my feet in water...describe the image HERE for accessibility purposes" width="50%">
+    <figcaption class="caption">
   <!--Add alt="text" image descriptions for visually impaired individuals using screen readers. Describe your image as clearly and succinctly as possible. Add captions. They provide another important layer of accessibility.-->
-      <p><i>Add a caption</i></p>
-    </div>
+      Add a caption
+    </figcaption>
+</figure>
 
 <!--in this next section you will explain a little more about your family (what does family means to you? Who are the people that influenced you on this path along which you now stand).-->
 <div class="text-block">
@@ -118,12 +119,12 @@ FUN FACT: "Lorem ipsum", "Lorem ipsum" was hacked out of Cicero's "De finibus bo
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   </div>
 
-  <div class="polaroid">
+  <figure class="polaroid">
     <img src="polaroid.jpg" alt="describe the image HERE for accessibility purposes">
-      <div class="polaroid-caption">
+      <figcaption class="polaroid-caption">
         <p><i>Add a caption</i></p>
-      </div>
-  </div>
+      </figcaption>
+  </figure>
 
 
 <!-- In our final discourse section, we will process the role schooling has played in our lives. -->
@@ -151,8 +152,8 @@ FUN FACT: "Lorem ipsum", "Lorem ipsum" was hacked out of Cicero's "De finibus bo
 </html>
 
 
-
-Looking to add components? You've come to the right place. Copy and paste code blocks and add to the body section. Adjust class CSS properties on style.css.
+<!--
+Looking to add components? You've come to the right place. Copy code blocks below and paste them in the body section, then update the contents. Need more control over colors and sizes? Look for the class names in style.css and make adjustments there.
 
 
     ***Add Text block***
@@ -228,10 +229,12 @@ Looking to add components? You've come to the right place. Copy and paste code b
 
     (Control image width using inline styling. Adjust "frame" class properties using CSS.)
 
+<figure>
   <img class="frame" src="codela.png" width="50%" alt="describe the image HERE for accessibility purposes">
-    <div class="caption">
+    <figcaption class="caption">
       <p><i>Add a caption</i></p>
-    </div>
+    </figcaption>
+</figure>
 
 
 
@@ -239,12 +242,12 @@ Looking to add components? You've come to the right place. Copy and paste code b
 
     (Control image width using CSS.)
 
-  <div class="polaroid">
+  <figure class="polaroid">
     <img src="polaroid.jpg" alt="describe the image HERE for accessibility purposes">
-      <div class="polaroid-caption">
+      <figcaption class="polaroid-caption">
         <p><i>Add a caption</i></p>
-      </div>
-  </div>
+      </figcaption>
+  </figure>
 
 
 
@@ -274,12 +277,12 @@ Looking to add components? You've come to the right place. Copy and paste code b
 
      ***Embed YouTube Video***
 
-     <div class="video">
+     <figure class="video">
       <div class="video-container">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/PhPLTpqG0pU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>>
       </div>
-        <p>Add a caption.</p>
-     </div>
+        <figcaption>Add a caption.</figcaption>
+     </figure>
 
 
      ***Add Copyright Footer***
@@ -291,3 +294,4 @@ Looking to add components? You've come to the right place. Copy and paste code b
 
 
        ***Need something that's not here? Go to https://www.w3schools.com to find all kinds of resources to facilitate your code learning.***
+-->

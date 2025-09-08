@@ -6,7 +6,7 @@ body, html {
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     background-color: white;
-  }  
+  }
 
 .hero-image {
 /* This selector controls the "hero image" class. You may need to change "hero.jpg" name/format to match your asset, or vice-versa */
@@ -40,7 +40,7 @@ body, html {
     font-size: 2em;
     color: white;
   }
-  
+
 
  /* The text-block class selector controls the text-box on screens >800px. You will also need to adjust values in the next text-box selector. */
 .text-block {
@@ -60,7 +60,7 @@ body, html {
 
  /* This code helps your text-block scale for screens ≤800px. */
   @media screen and (max-width: 800px) {
-    .text-block {  
+    .text-block {
         display: block;
         width: 90%;
         background-color: inherit;
@@ -184,7 +184,7 @@ CSS Flexbox creates responsive layouts for images, text, and other content. Reus
    }
  }
 
- 
+
 /* - Frame class selector -
 Use CSS box model to style image content. Adjust frame/filter class selector properties to customize. Copy, paste, rename class selector to quickly create alternative image stylings. */
 .frame {
@@ -203,7 +203,7 @@ Use CSS box model to style image content. Adjust frame/filter class selector pro
 }
 
 
-/* - Polaroid - 
+/* - Polaroid -
 Polaroid class selector and container. Adjust Polaroid width here. */
 .polaroid {
     display: block;
@@ -223,7 +223,7 @@ Polaroid class selector and container. Adjust Polaroid width here. */
     filter: hue-rotate(deg);
   }
 
-.polaroid-caption {
+.polaroid figcaption {
     text-align: center;
     padding: 10px 20px;
   }
@@ -358,5 +358,5 @@ Add a Copyright */
     margin: auto;
     font: inherit;
     font-size: inherit;
-    text-align: center;    
+    text-align: center;
   }
