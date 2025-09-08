@@ -11,26 +11,33 @@ You could make this webtext the easy way by using Google Site, Adobe Express, We
 <html lang="en-US">
 
 <head>
-<!--The <head> element contains additional information for search engines and browsers.--> 
-<!--The <title> tag controls the name on the browser tab and the next line of code adds a favicon image-->   
-<title>Electrate Fuego</title>
-<link rel="icon" type="image/jpg" href="favicon.jpg">
-<!--This website follows the Unicode 8-bit character set that standardizes all of the letters from all of the languages in the world--emojis too!-->
-<meta charset="UTF-8">
-<!--This viewport <meta> tag standard tells browsers how to display the website across different sized screens.-->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--This <link> (rel)ates to the cascading style sheet or CSS in your project folder. Web designers use CSS to add styling to a website. Using CSS saves time and results in fewer lines of code.-->
-<link rel="stylesheet" type="text/css" href="style.css">
+<!--The <head> element contains additional information for search engines and browsers.-->
+    <title>Electrate Fuego</title>
+    <!--The <title> tag controls the name on the browser tab and the next line of code adds a favicon image-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--This viewport <meta> tag standard tells browsers how to display the website across different sized screens.-->
+
+    <link rel="icon" type="image/jpg" href="favicon.jpg">
+    <!--This <link> sets the miniature icon (favicon) that will appear next to the address in a web browser. -->
+
+    <meta charset="UTF-8">
+    <!--This website follows the Unicode 8-bit character set that standardizes all of the letters from all of the languages in the world--emojis too!-->
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--This <link> (rel)ates to the cascading style sheet or CSS in your project folder. Web designers use CSS to add styling to a website. Using CSS saves time and results in fewer lines of code.-->
+
 </head>
 
-<!--The <body> element organizes all of the code and content that actually appears on a screen. You can change the background color by opening the style.css document in the body tag properties. Choose a color with enough contrast for your audience. Neutral colors work best for the greatest number of viewers.-->
 <body>
+<!--The <body> element organizes all of the code and content that actually appears on a screen. You can change the background color by opening the style.css document in the body tag properties. Choose a color with enough contrast for your audience. Neutral colors work best for the greatest number of viewers.-->
 
-<!--Developers refer to this next section as the "hero image." 
+
+<!--Developers refer to this next section as the "hero image."
 Fill in the blank between <h1>"I am..."</h1> and see what happens.
-To replace this image, simply find and delete the hero.jpg file in the project folder. Then add a new .jpg hero image to the project folder and name it hero.jpg. Select an image at least 1200px in width to avoid pixilation. If an image is larger than 1200px, you will want to resize it speed up load time. Crop image height to ensure desired fit.--> 
+To replace this image, simply find and delete the hero.jpg file in the project folder. Then add a new .jpg hero image to the project folder and name it hero.jpg. Select an image at least 1200px in width to avoid pixilation. If an image is larger than 1200px, you will want to resize it speed up load time. Crop image height to ensure desired fit.-->
 
-<!--The "hero-image" properties are controlled on the style.css document. We know this because the <div> calls the class="hero-image". You can open the style.css file and find the hero-image class to edit its properties. Alternatively you can edit the file height by cropping the image to fit within the hero-image.--> 
+<!--The "hero-image" properties are controlled on the style.css document. We know this because the <div> calls the class="hero-image". You can open the style.css file and find the hero-image class to edit its properties. Alternatively you can edit the file height by cropping the image to fit within the hero-image.-->
 <div class="hero-image">
   <div class="hero-text">
 <!--Next, change the other relevant information in this section, especially if you're not "John en Fuego" or not majoring in "electracy"-->
@@ -49,7 +56,7 @@ To replace this image, simply find and delete the hero.jpg file in the project f
 
 <!--Replace the image in this picture frame. Match code with file name/type. Control image width using inline styling. Adjust image size to 1200-600px depending on its need to scale across a screen. Remove or adjust the frame using the frame class on style.css.-->
 <div>
-<img src="fuego.jpg" class="frame" alt="my feet in water...describe the image HERE for accessibility purposes" width="50%">
+<img src="parallax.jpg" class="frame" alt="my feet in water...describe the image HERE for accessibility purposes" width="50%">
     <div class="caption">
   <!--Add alt="text" image descriptions for visually impaired individuals using screen readers. Describe your image as clearly and succinctly as possible. Add captions. They provide another important layer of accessibility.-->
       <p><i>Add a caption</i></p>
@@ -60,9 +67,9 @@ To replace this image, simply find and delete the hero.jpg file in the project f
   <h2>Family and Home</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   </div>
-  
+
 <!--Flexbox uses rows and column classes to create layouts that scale content across devices. The style.css page provides other attributes that will adjust the image depending on the size of screens. Add images to your project folder and make sure the file name/type matches in your code. Resize images to less than 600px in width. This will improve load time accessibility. Don't forget to add alt="text"-->
-<div class="flexbox-container"> 
+<div class="flexbox-container">
   <div class="row">
     <div class="column">
      <img src="pgrid1.jpg" alt="describe the image HERE for accessibility purposes">
@@ -134,17 +141,18 @@ FUN FACT: "Lorem ipsum", "Lorem ipsum" was hacked out of Cicero's "De finibus bo
 <!--The final step in our process will be to ensure that a smaller version of our "hero image," what Ulmer would refer to as our "wide image," repeats at the bottom of our document to better reinforce this motif.  -->
 
 <div class="logo">
-    <img src="fuego.jpg" alt="my feet in water" style="width:25%;">
+    <img src="parallax.jpg" alt="my feet in water" style="width:25%;">
             <p><b>generated by <a href="https://open-fuego.github.io/Open-Fuego-Coding-Tools/">Open Fuego</a></b></p>
             <p><i>Why make a spark when you can light a fire?</i></p>
   </div>
 
-  </body>
-     </html>
+<!-- To finish the page contents, we close the <body> tag with </body> and the <html> with </html>: it's like a long-delayed closing of a pair of parentheses we opened at the very beginning. -->
+</body>
+</html>
 
 
 
-  <!--Looking to add components? You've come to the right place. Copy and paste code blocks and add to the body section. Adjust class CSS properties on style.css.
+<!--Looking to add components? You've come to the right place. Copy and paste code blocks and add to the body section. Adjust class CSS properties on style.css.
 
 
     ***Add Text block***
@@ -224,7 +232,7 @@ FUN FACT: "Lorem ipsum", "Lorem ipsum" was hacked out of Cicero's "De finibus bo
     <div class="caption">
       <p><i>Add a caption</i></p>
     </div>
-  
+
 
 
     ***Add Polaroid***
@@ -279,7 +287,7 @@ FUN FACT: "Lorem ipsum", "Lorem ipsum" was hacked out of Cicero's "De finibus bo
      <div class="footer">
        <p><i>Copyright Your Name, Year.</i></p>
      </div>
-   
-   
-   
+
+
+
        ***Need something that's not here? Go to https://www.w3schools.com to find all kinds of resources to facilitate your code learning.***
